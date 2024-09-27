@@ -1,6 +1,6 @@
-<H3>Name</H3>
-<H3>Register no.</H3>
-<H3>Date</H3>
+<H3>Name</H3> PAWAN CHARAN
+<H3>Register no.</H3> 212223220074
+<H3>Date</H3> 27/09/2024
 <H3>Experiment No. 2 </H3>
 ## Implementation of Perceptron for Binary Classification
 # AIM:
@@ -50,6 +50,7 @@ STEP 10:Plot the error for each iteration <BR>
 STEP 11:Print the accuracy<BR>
 # PROGRAM:
 ```
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -116,11 +117,15 @@ plt.plot(range(1, len(classifier.misclassified_samples) + 1),classifier.misclass
 plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
+
 ```
 
 # OUTPUT:
+![NN EX 02 img 01](https://github.com/user-attachments/assets/57830fc2-ed98-4984-a3e8-a4bcd42f0508)
+![NN EX 02 img 02](https://github.com/user-attachments/assets/205d92b0-a448-4ec7-9f4b-f5c6b72e0446)
+![NN EX 02 img 03](https://github.com/user-attachments/assets/5b5817c2-a18e-422d-86f4-6d33aa05afbe)
+![NN EX 02 img 04](https://github.com/user-attachments/assets/66088d23-133c-480f-bad8-ab6d8e420699)
 
-    ''' Show your result '''
 
 # RESULT:
  Thus, a single layer perceptron model is implemented using python to classify Iris data set.
